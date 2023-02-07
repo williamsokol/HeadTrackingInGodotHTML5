@@ -22,7 +22,7 @@ func _process(delta):
 	var faceX = JavaScript.eval("centerX")
 	var faceY = JavaScript.eval("centerY")
 	#print(faceX) # prints '3.0'
-	position.x = faceX*-100 + get_viewport_rect().size.x/2
-	position.y = faceY*100 + get_viewport_rect().size.y/2
+	position.x = faceX*-40 + get_viewport_rect().size.x/2
+	position.y = faceY*40 + get_viewport_rect().size.y/2
 	#console.log("hello testing 4")
 

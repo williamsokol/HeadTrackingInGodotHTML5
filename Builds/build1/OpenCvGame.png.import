@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/OpenCvGame.png-7a0f9baef72514da80d76138cb6abab0.stex"
+path="res://.import/OpenCvGame.png-7f7ed95f503b1be1e67a468367de892b.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Builds/Build3/OpenCvGame.png"
-dest_files=[ "res://.import/OpenCvGame.png-7a0f9baef72514da80d76138cb6abab0.stex" ]
+source_file="res://Builds/build1/OpenCvGame.png"
+dest_files=[ "res://.import/OpenCvGame.png-7f7ed95f503b1be1e67a468367de892b.stex" ]
 
 [params]
 

@@ -1,0 +1,16 @@
+[gd_scene load_steps=2 format=2]
+
+[ext_resource path="res://3D/GameRoom/room_interior_designs.glb" type="PackedScene" id=1]
+
+[node name="room_interior_designs" instance=ExtResource( 1 )]
+transform = Transform( 0.01, 0, 0, 0, 0.01, 0, 0, 0, 0.01, 0, 0, 0 )
+
+[node name="Sketchfab_model" parent="." index="0"]
+transform = Transform( 1, 0, 0, 0, -4.37114e-08, 1, 0, -1, -4.37114e-08, 39.4726, 0.359047, -135.83 )
+
+[node name="tanaman" parent="Sketchfab_model/42dd85e7bd9945eaa9eb7c5973b48c58fbx/RootNode" index="2"]
+transform = Transform( 1, -7.94093e-23, 0, 1.32349e-23, 0.999999, 2.64698e-23, 0, 1.58819e-22, 1, 29.5161, 156.541, 690.558 )
+
+[node name="kursi" parent="Sketchfab_model/42dd85e7bd9945eaa9eb7c5973b48c58fbx/RootNode" index="6"]
+transform = Transform( 5.96046e-08, -6.61744e-24, 0.397648, 0, 0.397647, 0, -0.397648, 2.64698e-23, 5.96046e-08, 89.9639, 291.018, 592.383 )
+visible = false
