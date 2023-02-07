@@ -29,6 +29,6 @@ transform = Transform( 1, 0, 0, 0, 0.945137, 0.326674, 0, -0.326674, 0.945137, 0
 shape = SubResource( 3 )
 
 [node name="room_interior_designs" parent="." instance=ExtResource( 2 )]
-transform = Transform( 0.01, 0, 0, 0, 0.01, 0, 0, 0, 0.01, 0, -2.814, 0 )
+transform = Transform( 10, 0, 0, 0, 10, 0, 0, 0, 10, 0, -2.814, 0 )
 
 [editable path="room_interior_designs"]
