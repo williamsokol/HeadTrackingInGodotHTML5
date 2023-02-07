@@ -10,7 +10,7 @@ var scenes = [
 	preload("res://3D/3DScene.tscn"),
 	preload("res://3D/3DRoomScene.tscn")
 	]
-var sceneNum = 1
+var sceneNum = 2
 
 # Called when the node enters the scene tree for the first time.
 func _ready():
