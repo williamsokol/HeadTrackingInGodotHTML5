@@ -3,10 +3,7 @@ This repo is a demo of 3D headtracking in the Godot game engine, making easyier 
 
 # View it online:
 - demo: https://williamsokol.github.io/HeadTrackingInGodotHTML5/
-- video: 
-- 
-
-
+- video: <br/>[![IMAGE ALT TEXT](http://img.youtube.com/vi/3_gpYbpYjw8/0.jpg)](http://www.youtube.com/watch?v=3_gpYbpYjw8 "Video Title")
 
 # Future Optimizations
 - Make it is the OpenCV is using the LBP method for face detection instead of HAAR as it is supposed to be around 3x faster
