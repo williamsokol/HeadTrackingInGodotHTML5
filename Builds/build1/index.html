@@ -43,6 +43,7 @@ var featuresReady = checkFeatures(document.getElementById("info"), {webrtc: true
 <script src="face-detection\js\index.js"></script>
 <script>
 var Module = {
+  wasmBinaryFile: './libs/opencv_js.wasm',
   preRun: [function() {
     Module.FS_createPreloadedFile('/', 'haarcascade_eye.xml', 'data/haarcascade_eye.xml', true, false);
     Module.FS_createPreloadedFile('/', 'haarcascade_frontalface_default.xml', 'data/haarcascade_frontalface_default.xml', true, false);
@@ -51,7 +52,7 @@ var Module = {
   _main: function() {opencvIsReady();}
 };
 </script>
-<script async src="https://docs.opencv.org/3.4.0/opencv.js"></script>
+<script async src="./libs/opencv.js"></script>
 
 <p>
   Hello this a demo made by William Sokol 2/6/2023 <br/>
