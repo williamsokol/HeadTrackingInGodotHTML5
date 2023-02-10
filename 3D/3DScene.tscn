@@ -22,7 +22,10 @@ material/0 = SubResource( 2 )
 script = ExtResource( 2 )
 
 [node name="Camera" type="Camera" parent="KinematicBody"]
-transform = Transform( 1, 0, 0, 0, 0.945137, 0.326674, 0, -0.326674, 0.945137, 0, 1.41839, 6.35873 )
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0.949475 )
+projection = 2
+size = 2.0
+near = 0.45
 
 [node name="CollisionShape" type="CollisionShape" parent="KinematicBody"]
 shape = SubResource( 3 )
