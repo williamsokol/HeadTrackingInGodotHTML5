@@ -146,9 +146,15 @@ function drawResults(ctx, results, color, size) {
     ctx.lineWidth = 3;
     ctx.strokeStyle = color;
     ctx.strokeRect(rect.x*xRatio, rect.y*yRatio, rect.width*xRatio, rect.height*yRatio);
-    let lerpP = .3;
-    x = (x)*(1-lerpP) + (rect.x*xRatio+(rect.width*xRatio/2)) * lerpP
-    y = (y)*(1-lerpP) + (rect.y*yRatio+(rect.height*yRatio/2)) * lerpP
+    
+    let xReal = rect.x*xRatio+(rect.width*xRatio/2)
+    let yReal =  (rect.y*yRatio+(rect.height*yRatio/2))
+    let posDist = Math.hypot(x-xReal,y-yReal)
+    let videoDiag = Math.hypot(videoWidth,videoHeight)
+
+    let lerpP =  (posDist/videoDiag)*3
+    x = (x)*(1-lerpP) + xReal * lerpP
+    y = (y)*(1-lerpP) + yReal * lerpP
     
     //human fave is read as 6.5 inches from 24 inches away
     focalLength = 190 //asumme fl us 190 to get distance in inches
