@@ -31,9 +31,11 @@ func _process(delta):
 		faceX = JavaScript.eval("centerX")
 		faceY = JavaScript.eval("centerY")
 		faceZ = JavaScript.eval("centerZ")
-		faceZ = faceZ- 20
+		faceZ = faceZ - 20
+		#print()
 		#print(faceX) # prints '3.0'
 		newPos = Vector3(-faceX,-faceY,faceZ)*Sensitivity
+		#newPos.z += 10
 	else:
 		newPos = $Camera.translation +(keyMovements()*delta*10) 
 		
