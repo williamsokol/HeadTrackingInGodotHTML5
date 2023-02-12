@@ -7,7 +7,7 @@ This repo is a demo of 3D headtracking in the Godot game engine, making easyier 
 
 # Future Optimizations
 - Make it is the OpenCV is using the LBP method for face detection instead of HAAR as it is supposed to be around 3x faster
-- Use wasm to do opencv as it have seen it go 2-3x as fast
+- Use wasm to do opencv as it have seen it go 2-3x as fast **[DONE]**
 - Make use of a profileface data set to also track when you are not facing the camera directly
 - Try to keep onto the nearest similar pixels rather a doing a face detection every frame
 - Make Godot Build with the OpenCV.js already inside of it
