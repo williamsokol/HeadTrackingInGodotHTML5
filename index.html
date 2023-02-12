@@ -8,7 +8,14 @@
 </head>
 <body>
 <!-- Godot game stuff -->
-<canvas  class="center-block" id="canvas" width=400 height=300></canvas>
+<div id="gameRow">
+  <div class="selectButtons" id="leftButton" ><img src="Images/Arrow.png"></div>
+  <canvas  class="center-block" id="canvas" width=400 height=235></canvas>
+  <div class="selectButtons" id="rightButton" ><img src="Images/Arrow.png" onclick="event.stopPropagation();"></div>
+
+  <div id="selectText">Use The Arrows to Change Scenes</div>
+  
+</div>
 <script src="OpenCvGame.js"></script>
 <script>
     const GODOT_CONFIG = {"args":[],"canvasResizePolicy":0,"executable":"OpenCvGame","experimentalVK":false,"fileSizes":{"OpenCvGame.pck":35024,"OpenCvGame.wasm":26059464},"focusCanvas":true,"gdnativeLibs":[]};

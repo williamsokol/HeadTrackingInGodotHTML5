@@ -27,3 +27,36 @@ label {
   vertical-align: top;
   font: 16px 'Lucida Grande', sans-serif;
 }
+#gameRow
+{
+  display: grid;
+  grid-template-columns: 1fr auto 1fr ;
+  grid-template-rows: auto auto;
+ 
+}
+.selectButtons {
+  max-width: 2em;
+  margin: auto;
+  padding: 10px;
+  transition: 0.6s ease;
+}
+
+.selectButtons img {
+  pointer-events: none;
+  max-width: 100%;
+}
+#leftButton
+{
+  grid-column: 1/2;
+}
+#rightButton
+{
+  transform: scale(-1,1);
+  grid-column: 3/4;
+  
+}
+#selectText
+{
+  grid-column: 2/3  ;
+  text-align: center;
+}

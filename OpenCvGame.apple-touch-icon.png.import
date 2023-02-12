@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/OpenCvGame.apple-touch-icon.png-5d0a2fe4a84ef3d07b2035946769d118.stex"
+path="res://.import/OpenCvGame.apple-touch-icon.png-f93684deab7e3b365e26d2681d99d233.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Builds/Build3/OpenCvGame.apple-touch-icon.png"
-dest_files=[ "res://.import/OpenCvGame.apple-touch-icon.png-5d0a2fe4a84ef3d07b2035946769d118.stex" ]
+source_file="res://Builds/build1/OpenCvGame.apple-touch-icon.png"
+dest_files=[ "res://.import/OpenCvGame.apple-touch-icon.png-f93684deab7e3b365e26d2681d99d233.stex" ]
 
 [params]
 
