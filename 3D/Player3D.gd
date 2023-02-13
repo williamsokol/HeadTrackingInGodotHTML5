@@ -6,7 +6,7 @@ extends KinematicBody
 # var b = "text"
 
 export var facetracking = true
-var Sensitivity = Vector3(-1,-1,1)
+var Sensitivity = Vector3(-2,-2,1)
 var console
 
 var faceInput:Vector3
@@ -31,7 +31,7 @@ func _process(delta):
 		faceInput.y = JavaScript.eval("centerY")
 		faceInput.z = JavaScript.eval("centerZ")
 		
-		faceInput.z = map(faceInput.z, 12,50,7,80)
+		faceInput.z = map(faceInput.z, 12,40,7,80)
 		
 		newPos = faceInput*Sensitivity
 		#newPos.z += 10
